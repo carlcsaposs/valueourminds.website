@@ -6,6 +6,10 @@
       This website automatically collects your IP address, user agent, and the
       URL of the page that referred you to this website.
     </p>
+    <p>
+      Aside: Want to make it harder for websites to track your IP address? Check
+      out <a href="https://tails.boum.org/">Tails</a>.
+    </p>
     <h2>Data collected by third parties</h2>
     <p>This website uses the following third-party services: Netlify Edge.</p>
     <h3>Netlify Edge</h3>
