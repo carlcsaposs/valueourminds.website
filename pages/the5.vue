@@ -92,6 +92,43 @@ export default {
         content:
           '5 simple steps to support mental health. Take the pledge to #mindthe5',
       },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Mind the 5',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          '5 simple steps to support mental health. Take the pledge to #mindthe5',
+      },
+      {
+        name: 'twitter:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/the5.png'),
+      },
+      {
+        property: 'og:title',
+        content: 'Mind the 5',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/the5.png'),
+      },
+      {
+        property: 'og:image:height',
+        content: 2144,
+      },
+      {
+        property: 'og:image:width',
+        content: 4096,
+      },
     ],
   },
 }

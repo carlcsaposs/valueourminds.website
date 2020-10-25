@@ -119,6 +119,42 @@ export default {
         name: 'description',
         content: 'Mental health resources, here for you 24/7.',
       },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Get help',
+      },
+      {
+        name: 'twitter:description',
+        content: 'Mental health resources, here for you 24/7.',
+      },
+      {
+        name: 'twitter:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/index.png'),
+      },
+      {
+        property: 'og:title',
+        content: 'Get help',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/index.png'),
+      },
+      {
+        property: 'og:image:height',
+        content: 2144,
+      },
+      {
+        property: 'og:image:width',
+        content: 4096,
+      },
     ],
   },
 }

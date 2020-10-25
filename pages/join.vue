@@ -67,6 +67,43 @@ export default {
         content:
           'Our purpose is to promote mental health and build community so that everyone can feel accepted, safe, and understood.',
       },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Join the movement',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Our purpose is to promote mental health and build community so that everyone can feel accepted, safe, and understood.',
+      },
+      {
+        name: 'twitter:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/join.png'),
+      },
+      {
+        property: 'og:title',
+        content: 'Join the movement',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://www.valueourminds.com' +
+          require('@/assets/images/link-cards/join.png'),
+      },
+      {
+        property: 'og:image:height',
+        content: 2144,
+      },
+      {
+        property: 'og:image:width',
+        content: 4096,
+      },
     ],
   },
 }
