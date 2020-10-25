@@ -58,7 +58,6 @@ export default {
 }
 .card img {
   object-fit: contain;
-  max-height: 7rem;
   padding: 0.75rem;
   padding-bottom: 0;
 }

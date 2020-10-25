@@ -96,3 +96,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+/deep/ .card img {
+  max-height: 7rem;
+}
+</style>
