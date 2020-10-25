@@ -10,6 +10,11 @@
       Aside: Want to make it harder for websites to track your IP address? Check
       out <a href="https://tails.boum.org/">Tails</a>.
     </p>
+    <h2>External links</h2>
+    <p>
+      This website contains links to external websites. This privacy policy only
+      applies to this website, not external websites.
+    </p>
     <h2>Data collected by third parties</h2>
     <p>This website uses the following third-party services: Netlify Edge.</p>
     <h3>Netlify Edge</h3>
