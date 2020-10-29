@@ -15,9 +15,8 @@ export default {
       cards: [
         {
           title: 'Crisis Text Line',
-          description: [
+          description:
             'For any crisis, painful emotion, or anytime you need support.',
-          ],
           buttons: [
             {
               href: 'sms:741741?&body=HOME',
@@ -28,9 +27,8 @@ export default {
         },
         {
           title: 'Suicide Prevention Lifeline',
-          description: [
+          description:
             'For anyone who is depressed, going through a hard time, needs to talk, or is thinking about suicide.',
-          ],
           buttons: [
             {
               href: 'tel:1-800-273-8255',
@@ -46,7 +44,7 @@ export default {
         },
         {
           title: '911',
-          description: ['For life-threatening emergencies.'],
+          description: 'For life-threatening emergencies.',
           buttons: [
             {
               href: 'tel:911',
@@ -57,9 +55,8 @@ export default {
         },
         {
           title: 'The Trevor Project',
-          description: [
+          description:
             'For LGBTQ individuals who are in crisis, feeling suicidal, or in need of a safe and judgment-free place to talk.',
-          ],
           buttons: [
             {
               href: 'tel:1-866-488-7386',
@@ -80,9 +77,8 @@ export default {
         },
         {
           title: 'Domestic Violence Hotline',
-          description: [
+          description:
             'For anyone who is experiencing domestic violence, seeking resources or information, or questioning unhealthy aspects of their relationship.',
-          ],
           buttons: [
             {
               href: 'tel:1-800-799-7233',
@@ -98,9 +94,8 @@ export default {
         },
         {
           title: 'Disaster Distress Helpline',
-          description: [
+          description:
             'For anyone who is experiencing emotional distress related to any natural or human-caused disaster.',
-          ],
           buttons: [
             {
               href: 'tel:1-800-985-5990',

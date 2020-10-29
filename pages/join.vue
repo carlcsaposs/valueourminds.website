@@ -42,9 +42,7 @@ export default {
             alt: 'Posters with mental health resources',
           },
           title: 'Posters',
-          description: [
-            'Posters to raise awareness of mental health resources',
-          ],
+          description: 'Posters to raise awareness of mental health resources',
         },
         {
           image: {
@@ -52,9 +50,8 @@ export default {
             alt: 'Back side of ID card with mental health resources',
           },
           title: 'ID cards',
-          description: [
+          description:
             'Use the back of student ID cards to promote mental health resources',
-          ],
         },
       ],
     }

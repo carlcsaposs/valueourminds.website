@@ -11,13 +11,14 @@
         </div>
         <div class="card-body">
           <h2 class="card-title"><span v-html="card.title"></span></h2>
-          <p
-            v-for="paragraph in card.description"
-            :key="paragraph"
-            class="card-text"
-          >
-            {{ paragraph }}
+          <p v-if="card.description" id="description" class="card-text">
+            {{ card.description }}
           </p>
+          <ul v-if="card.bullets">
+            <li v-for="bullet in card.bullets" :key="bullet" class="card-text">
+              {{ bullet }}
+            </li>
+          </ul>
           <div v-if="card.buttons" id="buttons">
             <b-button
               v-for="button in card.buttons"
@@ -54,11 +55,25 @@ export default {
   }
 }
 #buttons {
+  margin-top: 0.7rem;
   margin-bottom: -0.3rem; // Removes margin on final row of buttons
 }
 .card img {
   object-fit: contain;
   padding: 0.75rem;
   padding-bottom: 0;
+}
+#description {
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 0.5rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 </style>
