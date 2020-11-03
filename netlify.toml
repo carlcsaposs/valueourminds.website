@@ -14,10 +14,11 @@
   [plugins.inputs.policies]
     defaultSrc = "'none'"
     scriptSrc = "'self'"
-    styleSrc = "'self'"
+    styleSrc = "'self' 'unsafe-hashes'"
     fontSrc = "'self'"
     imgSrc = "'self'"
     manifestSrc = "'self'"
+    connectSrc = "'self'"
     baseUri = "'none'"
     formAction = "'none'"
     frameAncestors = "'none'"
@@ -26,3 +27,4 @@
   package = "netlify-plugin-checklinks"
   [plugins.inputs]
   checkExternal = true
+  skipPatterns = ['https://out.valueourminds.com/the5/pledge/facebook']

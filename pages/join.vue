@@ -38,7 +38,7 @@ export default {
       cards: [
         {
           image: {
-            file: 'posters.svg',
+            file: 'pages/join/posters.svg',
             alt: 'Posters with mental health resources',
           },
           title: 'Posters',
@@ -46,7 +46,7 @@ export default {
         },
         {
           image: {
-            file: 'id-card.svg',
+            file: 'pages/join/id-card.svg',
             alt: 'Back side of ID card with mental health resources',
           },
           title: 'ID cards',

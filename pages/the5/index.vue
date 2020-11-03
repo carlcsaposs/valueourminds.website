@@ -12,7 +12,7 @@ export default {
       cards: [
         {
           image: {
-            file: 'mindthe5-1.svg',
+            file: 'pages/the5/index/mindthe5-1.svg',
             alt: 'Person eating, sleeping, and exercising',
           },
           title: '1. Take care of <b class="text-accent">BODY</b>',
@@ -26,7 +26,7 @@ export default {
         },
         {
           image: {
-            file: 'mindthe5-2.svg',
+            file: 'pages/the5/index/mindthe5-2.svg',
             alt: 'Unbalanced scale',
           },
           title: '2. <b class="text-primary">YOU</b> first',
@@ -39,7 +39,7 @@ export default {
         },
         {
           image: {
-            file: 'mindthe5-3.svg',
+            file: 'pages/the5/index/mindthe5-3.svg',
             alt: 'Hands holding a heart',
           },
           title: '3. Recognize and accept <b class="text-accent">FEELINGS</b>',
@@ -51,7 +51,7 @@ export default {
         },
         {
           image: {
-            file: 'mindthe5-4.svg',
+            file: 'pages/the5/index/mindthe5-4.svg',
             alt: 'Group of people',
           },
           title: '4. <b class="text-primary">CONNECT</b> with others',
@@ -63,7 +63,7 @@ export default {
         },
         {
           image: {
-            file: 'mindthe5-5.svg',
+            file: 'pages/the5/index/mindthe5-5.svg',
             alt: 'Two hands reaching out to each other',
           },
           title: '5. Ask for <b class="text-accent">HELP</b>',
@@ -78,6 +78,18 @@ export default {
               to: '/',
               style: 'primary',
               text: 'Get help',
+            },
+          ],
+        },
+        {
+          title: 'Take the pledge',
+          description:
+            'Several people have pledged to #mindthe5 and take care of their mental health. Will you join them?',
+          buttons: [
+            {
+              to: '/the5/pledge/',
+              style: 'secondary',
+              text: 'Take the pledge',
             },
           ],
         },

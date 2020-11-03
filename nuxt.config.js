@@ -75,6 +75,11 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extractCSS: true,
+    loaders: {
+      // Disable inline fonts and images to avoid CSP violations
+      fontUrl: { limit: 0 },
+      imgUrl: { limit: 0 },
+    },
   },
 
   generate: {
@@ -88,7 +93,13 @@ export default {
   bootstrapVue: {
     bootstrapCSS: false,
     bootstrapVueCSS: false,
-    componentPlugins: ['LayoutPlugin', 'NavbarPlugin', 'ButtonPlugin'],
+    componentPlugins: [
+      'LayoutPlugin',
+      'NavbarPlugin',
+      'ButtonPlugin',
+      'TabsPlugin',
+      'AlertPlugin',
+    ],
   },
 
   styleResources: {

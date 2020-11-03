@@ -16,6 +16,7 @@ html {
 body {
   position: relative;
   min-height: 100%;
+  overflow-wrap: break-word;
 }
 
 .btn {
