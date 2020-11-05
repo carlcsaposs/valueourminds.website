@@ -1,6 +1,4 @@
 {
-  "name": "website",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -9,15 +7,7 @@
     "lint:style": "stylelint **/*.{vue,css}",
     "lint": "npm run lint:js && npm run lint:style"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/valueourminds/website.git"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/valueourminds/website/issues"
-  },
-  "homepage": "https://github.com/valueourminds/website#readme",
   "lint-staged": {
     "*.{js,vue}": "eslint",
     "*.{css,vue}": "stylelint"
