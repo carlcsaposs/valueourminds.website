@@ -2,8 +2,8 @@
   <div>
     <h1>
       Imagine a world in which everyone can
-      <span class="text-accent">feel accepted</span>,
-      <span class="text-accent">safe</span>, and
+      <span class="text-accent">feel safe</span>,
+      <span class="text-accent">valued</span>, and
       <span class="text-accent">understood</span>.
     </h1>
     <h1>
@@ -62,7 +62,7 @@ export default {
       {
         name: 'description',
         content:
-          'Our purpose is to promote mental health and build community so that everyone can feel accepted, safe, and understood.',
+          'Our purpose is to promote mental health and build community so that everyone can feel safe, valued, and understood.',
       },
       {
         name: 'twitter:card',
@@ -75,7 +75,7 @@ export default {
       {
         name: 'twitter:description',
         content:
-          'Our purpose is to promote mental health and build community so that everyone can feel accepted, safe, and understood.',
+          'Our purpose is to promote mental health and build community so that everyone can feel safe, valued, and understood.',
       },
       {
         name: 'twitter:image',

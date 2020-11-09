@@ -8,7 +8,7 @@
     </p>
     <p>
       Together, if each of us take care of our mental health, we can create a
-      future in which everyone can feel accepted, safe, and understood.
+      future in which everyone can feel safe, valued, and understood.
     </p>
     <p>Thank you for contributing to that future.</p>
     <h2>Share</h2>

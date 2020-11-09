@@ -4,7 +4,7 @@
     <h2>Our Purpose</h2>
     <p>
       To promote mental health and build community so that everyone can feel
-      accepted, safe, and understood.
+      safe, valued, and understood.
     </p>
     <h2>Contact Us</h2>
     <p>
@@ -33,7 +33,7 @@ export default {
       {
         name: 'description',
         content:
-          'Our purpose is to promote mental health and build community so that everyone can feel accepted, safe, and understood.',
+          'Our purpose is to promote mental health and build community so that everyone can feel safe, valued, and understood.',
       },
     ],
   },
