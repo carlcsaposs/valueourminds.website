@@ -3,8 +3,9 @@
     <heading heading="Privacy Policy" subheading="Your privacy matters" />
     <h2>The short version</h2>
     <p>
-      This website automatically collects your IP address, user agent, and the
-      URL of the page that referred you to this website.
+      This website automatically collects your IP address, your user agent, the
+      URL of the page that referred you to this website, and anonymous usage
+      data.
     </p>
     <p>
       This website also collects data that you provide (e.g. your email address
@@ -51,6 +52,42 @@
       <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
     </p>
     <h2>Data collected directly by this website</h2>
+    <h3>Data automatically collected</h3>
+    <p>
+      This website automatically collects the following anonymous usage data:
+    </p>
+    <ul>
+      <li>
+        When a page is loaded, this website stores:
+        <ul>
+          <li>The date (in UTC) the page was loaded</li>
+          <li>Which page was loaded</li>
+        </ul>
+      </li>
+      <li>
+        When a link or button is clicked on this website, this website stores:
+        <ul>
+          <li>The date (in UTC) the link was clicked</li>
+          <li>Which link was clicked</li>
+        </ul>
+      </li>
+      <li>
+        When a QR code is scanned on one of our posters to access this website,
+        this website stores:
+        <ul>
+          <li>The date (in UTC) the QR code was scanned</li>
+          <li>
+            The unique identifier of the QR code
+            <ul>
+              <li>
+                This unique identifier is associated with the geographic
+                coordinates where the poster was placed
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
     <h3>Data that you provide</h3>
     <p>
       Data that is submitted via the feedback form is stored indefinitely. If
