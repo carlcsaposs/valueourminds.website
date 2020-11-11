@@ -27,7 +27,9 @@
       <li>Speak up and share your experience, perspective, and ideas</li>
     </ol>
     <h2>Some of our projects:</h2>
-    <card-deck :cards="cards" />
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <card v-for="card in cards" :key="card.title" :card="card" />
+    </div>
   </div>
 </template>
 

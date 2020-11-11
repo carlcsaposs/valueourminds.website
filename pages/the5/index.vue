@@ -1,7 +1,10 @@
 <template>
   <div>
     <heading heading="Mind the 5" subheading="Steps to support mental health" />
-    <card-deck :cards="cards" />
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <card v-for="card in cards" :key="card.title" :card="card" />
+      <card :card="pledgeCard" />
+    </div>
   </div>
 </template>
 
@@ -9,6 +12,7 @@
 export default {
   data() {
     return {
+      pledgeCounter: null,
       cards: [
         {
           image: {
@@ -81,20 +85,38 @@ export default {
             },
           ],
         },
-        {
-          title: 'Take the pledge',
-          description:
-            'Several people have pledged to #mindthe5 and take care of their mental health. Will you join them?',
-          buttons: [
-            {
-              to: '/the5/pledge/',
-              style: 'secondary',
-              text: 'Take the pledge',
-            },
-          ],
-        },
       ],
     }
+  },
+  computed: {
+    pledgeCard() {
+      return {
+        title: 'Take the pledge',
+        description: `${
+          this.pledgeCounter != null ? this.pledgeCounter : 'Several'
+        } people have pledged to #mindthe5 and take care of their mental health. Will you join them?`,
+        buttons: [
+          {
+            to: `/the5/pledge/${
+              this.pledgeCounter != null ? '?count=' + this.pledgeCounter : ''
+            }`,
+            style: 'secondary',
+            text: 'Take the pledge',
+          },
+        ],
+      }
+    },
+  },
+  mounted() {
+    this.$fire.firestore
+      .collection('counters')
+      .doc('mindthe5')
+      .get()
+      .then(
+        function (doc) {
+          this.pledgeCounter = doc.data().count
+        }.bind(this)
+      )
   },
   head: {
     title: 'Mind the 5 | Value Our Minds',

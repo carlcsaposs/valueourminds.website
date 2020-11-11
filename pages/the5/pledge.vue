@@ -1,7 +1,7 @@
 <template>
   <div>
     <heading heading="Welcome to team #mindthe5" />
-    <p>You are the latest person to take the pledge.</p>
+    <p>You are the {{ ordinalNumber }} person to take the pledge.</p>
     <p>
       By pledging to take care of your mental health and ask for help when you
       need it, you will inspire others to do the same.
@@ -86,6 +86,7 @@
 export default {
   data() {
     return {
+      pledgeCounter: null,
       canShareText: false, // Web Share API available
       canShareFiles: false, // Web Share API w/files available
       copyButtonDisabled: false,
@@ -140,6 +141,24 @@ export default {
     copyButtonText() {
       return this.copyButtonDisabled ? 'Copied' : 'Copy text'
     },
+    ordinalNumber() {
+      if (this.pledgeCounter === null) {
+        return 'latest'
+      }
+      const i = this.pledgeCounter
+      const j = i % 10
+      const k = i % 100
+      if (j === 1 && k !== 11) {
+        return i + 'st'
+      }
+      if (j === 2 && k !== 12) {
+        return i + 'nd'
+      }
+      if (j === 3 && k !== 13) {
+        return i + 'rd'
+      }
+      return i + 'th'
+    },
   },
   beforeMount() {
     if (navigator.share) {
@@ -164,6 +183,22 @@ export default {
             }.bind(this)
           )
       }
+    }
+  },
+  mounted() {
+    // Check query string for pledge count
+    if (this.$route.query.count) {
+      this.pledgeCounter = parseInt(this.$route.query.count, 10) + 1
+    }
+    // Remove query string
+    window.history.replaceState(null, null, window.location.pathname)
+
+    if (window.location.hostname === 'www.valueourminds.com') {
+      // Increment count
+      this.$fire.firestore
+        .collection('counters')
+        .doc('mindthe5')
+        .update({ count: this.$fireModule.firestore.FieldValue.increment(1) })
     }
   },
   methods: {

@@ -4,7 +4,9 @@
       heading="You are not alone"
       subheading="These resources are here for you 24/7"
     />
-    <card-deck :cards="cards" />
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <card v-for="card in cards" :key="card.title" :card="card" />
+    </div>
   </div>
 </template>
 
