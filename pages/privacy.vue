@@ -7,6 +7,10 @@
       URL of the page that referred you to this website.
     </p>
     <p>
+      This website also collects data that you provide (e.g. your email address
+      if you include it in the feedback form).
+    </p>
+    <p>
       Aside: Want to make it harder for websites to track your IP address? Check
       out <a href="https://tails.boum.org/">Tails</a>.
     </p>
@@ -16,7 +20,10 @@
       applies to this website, not external websites.
     </p>
     <h2>Data collected by third parties</h2>
-    <p>This website uses the following third-party services: Netlify Edge.</p>
+    <p>
+      This website uses the following third-party services: Netlify Edge, Cloud
+      Firestore.
+    </p>
     <h3>Netlify Edge</h3>
     <p>
       When you load a page on this website, Netlify Edge stores the following
@@ -33,6 +40,24 @@
     <p>
       Netlify Edge is subject to
       <a href="https://www.netlify.com/privacy">Netlify's Privacy Policy</a>.
+    </p>
+    <h3>Cloud Firestore</h3>
+    <p>
+      When you access this website, Cloud Firestore stores your IP address for
+      no more than 180 days.
+    </p>
+    <p>
+      Cloud Firestore is subject to
+      <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+    </p>
+    <h2>Data collected directly by this website</h2>
+    <h3>Data that you provide</h3>
+    <p>
+      Data that is submitted via the feedback form is stored indefinitely. If
+      you wish to delete data sent via the feedback form, send an email to
+      <a href="mailto:valueourminds@gmail.com">valueourminds@gmail.com</a> with
+      the subject line "Delete feedback response" from the email address you
+      used to submit the form.
     </p>
     <h2>Contact</h2>
     <p>

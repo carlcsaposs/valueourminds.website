@@ -12,13 +12,17 @@
     buildDir = "dist"
 
   [plugins.inputs.policies]
-    defaultSrc = "'none'"
+    defaultSrc = "'self'" # Required due to bug in Firefox when loading SVGs with <use> (https://bugzilla.mozilla.org/show_bug.cgi?id=1303364)
+    childSrc = "'self'"
+    mediaSrc = "'none'"
+    objectSrc = "'none'"
+    prefetchSrc = "'none'"
     scriptSrc = "'self'"
     styleSrc = "'self' 'unsafe-hashes'"
     fontSrc = "'self'"
     imgSrc = "'self'"
     manifestSrc = "'self'"
-    connectSrc = "'self'"
+    connectSrc = "'self' https://firestore.googleapis.com"
     baseUri = "'none'"
     formAction = "'none'"
     frameAncestors = "'none'"

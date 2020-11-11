@@ -70,6 +70,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
+    '@nuxtjs/firebase',
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -99,10 +100,37 @@ export default {
       'ButtonPlugin',
       'TabsPlugin',
       'AlertPlugin',
+      'FormPlugin',
+      'FormGroupPlugin',
+      'FormRadioPlugin',
+      'FormInputPlugin',
+      'FormTextareaPlugin',
     ],
   },
 
   styleResources: {
     scss: ['~assets/scss/global.scss'],
+  },
+
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyDyux-K4__0Uvsyu9NtP7rxDHpo2fVuyGA',
+      authDomain: 'website-2df68.firebaseapp.com',
+      databaseURL: 'https://website-2df68.firebaseio.com',
+      projectId: 'website-2df68',
+      storageBucket: 'website-2df68.appspot.com',
+      messagingSenderId: '1041372024792',
+      appId: '1:1041372024792:web:aa88e3d9319d0e748eecad',
+    },
+    services: {
+      firestore: true,
+    },
+  },
+
+  // https://firebase.nuxtjs.org/service-options/firestore#settings
+  render: {
+    bundleRenderer: {
+      runInNewContext: false,
+    },
   },
 }

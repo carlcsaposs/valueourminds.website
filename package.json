@@ -18,9 +18,11 @@
     }
   },
   "dependencies": {
+    "@nuxtjs/firebase": "^7.1.0",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
+    "firebase": "^8.0.1",
     "nuxt": "^2.14.7"
   },
   "devDependencies": {

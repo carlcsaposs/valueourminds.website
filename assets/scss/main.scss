@@ -11,8 +11,10 @@
 @import '~bootstrap/scss/buttons';
 @import '~bootstrap/scss/card';
 @import '~bootstrap/scss/alert';
+@import '~bootstrap/scss/forms';
 @import '~bootstrap/scss/utilities'; // Must be last bootstrap import
 // Required bootstrap-vue
 @import '~bootstrap-vue/src/utilities';
 // Additional bootstrap-vue
 @import '~bootstrap-vue/src/components/navbar/index';
+@import '~bootstrap-vue/src/components/form-input/index';
