@@ -14,7 +14,7 @@ export default {
   mounted() {
     // Check query string for QR code referral
     // Each QR code we distribute (e.g. on a poster) has a unique ID
-    const qrId = this.$route.query.qr
+    const qrId = this.$route.query.qr || null
     // Remove query string
     window.history.replaceState(null, null, window.location.pathname)
     if (window.location.hostname === 'www.valueourminds.com') {
