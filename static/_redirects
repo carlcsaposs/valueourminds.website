@@ -1,7 +1,7 @@
 # (valueourminds.com is automatically redirected to www.valueourminds.com by Netlify)
 # Other domains managed in separate repository (https://github.com/valueourminds/website-domain-redirects)
 # Netlify domain redirect
-https://website-40342a.netlify.app/* https://www.valueourminds.com 301!
+https://vom-website.netlify.app/* https://www.valueourminds.com 301!
 
 /index.html / 301!
 /*/index.html /:splat/ 301!
