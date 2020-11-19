@@ -37,7 +37,7 @@ export default {
         }
         if (
           window.location.hostname === 'www.valueourminds.com' &&
-          !event.target.href.startsWith('https://www.valueourminds.com')
+          new URL(event.target.href).hostname !== window.location.hostname
         ) {
           // Prevent redirect
           event.preventDefault()
