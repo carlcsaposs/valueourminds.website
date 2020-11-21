@@ -44,8 +44,8 @@
     </p>
     <h3>Cloud Firestore</h3>
     <p>
-      When you access this website, Cloud Firestore stores your IP address for
-      no more than 180 days.
+      Cloud Firestore stores data collected directly by this website and does
+      not collect any additional data.
     </p>
     <p>
       Cloud Firestore is subject to
