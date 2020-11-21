@@ -40,9 +40,16 @@
       <li>
         Cara, Jennifer, and Kate from the Davis Joint Unified School District
       </li>
+      <li>Max R</li>
       <li>Barbara and Diane from the City of Davis</li>
       <li>Chris from Netlify</li>
       <li>Matt and the team at Youth MOVE National</li>
+      <li>Jacob M</li>
+      <li>
+        All of the people who cleaned up the litter created by our first
+        posters, which weren't as waterproof as we anticipated
+      </li>
+      <li>Laura and Scott from Netlify</li>
     </ul>
   </div>
 </template>
