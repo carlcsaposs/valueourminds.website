@@ -125,9 +125,19 @@ export default {
           })
           .then(
             function () {
+              this.uploading = false
+              this.resetForm()
               this.$router.push('/feedback/thanks/')
             }.bind(this)
           )
+      }
+    },
+    resetForm() {
+      this.form = {
+        isPositiveFeedback: null,
+        eventDescription: '',
+        suggestions: '',
+        email: '',
       }
     },
   },
@@ -140,9 +150,10 @@ export default {
     })
   },
   beforeRouteLeave(to, from, next) {
-    if (this.formInput && !this.uploading) {
+    if (this.formInput) {
       const answer = window.confirm('Leave page? Your changes will be lost.')
       if (answer) {
+        this.resetForm()
         next()
       } else {
         next(false)
