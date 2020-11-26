@@ -30,6 +30,7 @@
           id="input-2"
           v-model="form.eventDescription"
           rows="3"
+          maxlength="3000"
           required
         ></b-form-textarea>
       </b-form-group>
@@ -40,6 +41,7 @@
         <b-form-textarea
           id="input-3"
           v-model="form.suggestions"
+          maxlength="2000"
         ></b-form-textarea>
       </b-form-group>
       <b-form-group
@@ -50,6 +52,7 @@
         <b-form-input
           id="input-4"
           v-model="form.email"
+          maxlength="254"
           type="email"
         ></b-form-input>
       </b-form-group>
