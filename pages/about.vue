@@ -50,6 +50,7 @@
         posters, which weren't as waterproof as we anticipated
       </li>
       <li>Laura and Scott from Netlify</li>
+      <li>Niklas G</li>
     </ul>
   </div>
 </template>
