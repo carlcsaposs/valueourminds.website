@@ -23,7 +23,7 @@
     "bootstrap-vue": "^2.20.1",
     "core-js": "^3.8.1",
     "firebase": "^8.1.2",
-    "nuxt": "^2.14.9"
+    "nuxt": "^2.14.11"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
