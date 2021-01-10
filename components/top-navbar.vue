@@ -3,7 +3,6 @@
     <b-navbar-nav>
       <b-nav-item to="/">Get help</b-nav-item>
       <b-nav-item to="/the5/">Mind the 5</b-nav-item>
-      <b-nav-item to="/join/">Join the movement</b-nav-item>
     </b-navbar-nav>
   </b-navbar>
 </template>
