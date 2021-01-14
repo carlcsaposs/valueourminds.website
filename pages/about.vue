@@ -9,7 +9,7 @@
     <h2>Contact us</h2>
     <p>
       Send us an email at
-      <a href="mailto:valueourminds@gmail.com">valueourminds@gmail.com</a>.
+      <a href="mailto:contact@valueourminds.com">contact@valueourminds.com</a>.
     </p>
     <p>
       We appreciate hearing your feedback, learning about how this service has

@@ -92,15 +92,15 @@
     <p>
       Data that is submitted via the feedback form is stored indefinitely. If
       you wish to delete data sent via the feedback form, send an email to
-      <a href="mailto:valueourminds@gmail.com">valueourminds@gmail.com</a> with
-      the subject line "Delete feedback response" from the email address you
-      used to submit the form.
+      <a href="mailto:contact@valueourminds.com">contact@valueourminds.com</a>
+      with the subject line "Delete feedback response" from the email address
+      you used to submit the form.
     </p>
     <h2>Contact</h2>
     <p>
       If you have any questions about this privacy policy, please send an email
       to
-      <a href="mailto:valueourminds@gmail.com">valueourminds@gmail.com</a>.
+      <a href="mailto:contact@valueourminds.com">contact@valueourminds.com</a>.
     </p>
   </div>
 </template>
